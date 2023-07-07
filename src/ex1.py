@@ -6,6 +6,7 @@ def validate_file(file_name):
         next(file)
         # for count, line in enumerate(file):
         #     line_values = line.split(',')
+        #     # print(line_values)
         #     # if second value is number -> throw exceptions
         #     try:
         #         int(line_values[1])
