@@ -8,7 +8,7 @@ def find_total_visits():
     for file in file_path:
         # print(file)
         with open(file, "r") as csv_file:
-            rows = csv.reader(csv_file, delimiter=',')
+            # rows = csv.reader(csv_file, delimiter=',')
             next(csv_file)
             for line in csv_file:
                 x = line.split(',')
